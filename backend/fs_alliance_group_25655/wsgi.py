@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'fs_alliance_group_25655.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "fs_alliance_group_25655.settings")
 
 application = get_wsgi_application()
